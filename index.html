@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amir AL MAMMA | Data Scientist & AI Engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #003264; /* Navy Blue */
+            --secondary-color: #464646; /* Dark Gray */
+            --bg-color: #f8f9fa;
+            --text-color: #333;
+            --light-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Section */
+        header {
+            background-color: var(--light-bg);
+            border-radius: 8px;
+            padding: 40px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 30px;
+            margin-top: 40px;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--primary-color);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .header-text h1 {
+            margin: 0 0 10px 0;
+            color: var(--primary-color);
+            font-size: 2.5rem;
+        }
+
+        .header-text h2 {
+            margin: 0 0 15px 0;
+            color: var(--secondary-color);
+            font-weight: 400;
+            font-size: 1.2rem;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-links a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #0050a0;
+        }
+
+        /* Sections */
+        section {
+            background-color: var(--light-bg);
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        section h3 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+
+        /* Experience & Education Items */
+        .item {
+            margin-bottom: 25px;
+        }
+
+        .item:last-child {
+            margin-bottom: 0;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+
+        .item-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: var(--primary-color);
+        }
+
+        .item-date {
+            color: var(--secondary-color);
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        .item-subtitle {
+            font-style: italic;
+            color: var(--secondary-color);
+            margin-bottom: 10px;
+        }
+
+        ul {
+            margin-top: 0;
+            padding-left: 20px;
+        }
+
+        /* Skills Grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-category h4 {
+            color: var(--secondary-color);
+            margin-bottom: 10px;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .skill-tag {
+            background-color: #e9ecef;
+            color: var(--primary-color);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: var(--secondary-color);
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            .item-header {
+                flex-direction: column;
+            }
+            .item-date {
+                margin-top: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- HEADER -->
+        <header>
+            <img src="photo_amir_almamma.png" alt="Amir AL MAMMA" class="profile-img">
+            <div class="header-text">
+                <h1>Amir AL MAMMA</h1>
+                <h2>Data Scientist | AI Engineer | M2 MIAGE Student</h2>
+                <div class="social-links">
+                    <a href="mailto:amir.almamma.b@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://linkedin.com/in/amir-almamma-a737b719b" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/amir-coder" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ABOUT -->
+        <section>
+            <h3>About Me</h3>
+            <p>I am an AI Engineer and Data Scientist, currently completing my Master 2 MIAGE (Data & BI) at the Université de Rennes. With a dual background in theoretical Artificial Intelligence (Reinforcement Learning, NLP) and large-scale Data Engineering, I specialize in bridging advanced algorithms with real-world business intelligence and cybersecurity applications.</p>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section>
+            <h3>Professional Experience</h3>
+            
+            <div class="item">
+                <div class="item-header">
+                    <div class="item-title">Data Analyst & Automation Apprentice</div>
+                    <div class="item-date">Oct. 2025 – Present</div>
+                </div>
+                <div class="item-subtitle">Aptar Pharma | Granville, France</div>
+                <ul>
+                    <li>Developed a Power Automate solution for equipment lifecycle management, reducing processing time from 5 days to real-time.</li>
+                    <li>Designed Power BI dashboards to track utilization rates and identify bottlenecks.</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <div class="item-title">R&D Machine Learning Data Scientist Intern</div>
+                    <div class="item-date">May 2025 – Aug. 2025</div>
+                </div>
+                <div class="item-subtitle">GLIMPS | Rennes, France</div>
+                <ul>
+                    <li>Implemented and fine-tuned a Transformer model (ASMDEPICTOR) for Reverse Engineering, achieving a Jaccard similarity score of 0.8.</li>
+                    <li>Created an end-to-end R&D pipeline from raw binary generation to a deployment-ready inference interface.</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <div class="item-title">Data Science & Cybersecurity Research Intern</div>
+                    <div class="item-date">Feb. 2024 – Jun. 2024</div>
+                </div>
+                <div class="item-subtitle">Université de Sherbrooke | Sherbrooke, Canada</div>
+                <ul>
+                    <li>Researched state-of-the-art Reinforcement Learning (PPO) applications for Endpoint Detection and Response (EDR) and IDRS.</li>
+                    <li>Designed Defensive Meta-Agents using dynamic reward shaping to mitigate adversarial perturbations.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section>
+            <h3>Education</h3>
+            
+            <div class="item">
+                <div class="item-header">
+                    <div class="item-title">Master 2 MIAGE (Data & Business Intelligence)</div>
+                    <div class="item-date">Oct. 2024 – Present</div>
+                </div>
+                <div class="item-subtitle">ISTIC, Université de Rennes | Rennes, France</div>
+                <ul>
+                    <li><strong>Academic Excellence:</strong> Valedictorian in M1 (Ranked 1/28) • Currently ranked 4/43 in M2.</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <div class="item-title">Computer Engineering Degree (AI & Data Science)</div>
+                    <div class="item-date">Sept. 2021 – Sept. 2024</div>
+                </div>
+                <div class="item-subtitle">ESTIN | Bejaïa, Algeria</div>
+                <ul>
+                    <li>Graduated with Highest Honors (Mention Très Bien).</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section>
+            <h3>Technical Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Data Science & AI</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">Transformers</span>
+                        <span class="skill-tag">NLP</span>
+                        <span class="skill-tag">Reinforcement Learning</span>
+                        <span class="skill-tag">RAG / MAS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Data Engineering & BI</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Talend</span>
+                        <span class="skill-tag">Neo4j</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">GraphQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Tools & DevOps</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">CI/CD</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>&copy; 2026 Amir AL MAMMA. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
